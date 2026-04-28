@@ -9,6 +9,7 @@ COPY . .
 RUN pip install -r requirements.txt --target=/app/deps
 
 
+
 #stage 2
 
 FROM gcr.io/distroless/python3-debian12
